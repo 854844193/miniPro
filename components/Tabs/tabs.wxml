@@ -1,0 +1,14 @@
+<view class="tabs">
+	<view class="tabs_title">
+		<view wx:for="{{tabsList}}" wx:key="index" class="tabs_item {{current==index?'active':''}}" bindtap="changeCurrent"
+			data-index="{{index}}">
+			{{item.name}}
+		</view>
+	</view>
+	<view class="tabs_content">
+			<view wx:if="{{current===0}}">这里是快讯</view>
+			<view wx:elif="{{current===1}}">这里是NBA</view>
+			<view wx:elif="{{current===2}}">这里是健身</view>
+			<view wx:else="{{current===3}}">这里是其他</view>
+	</view>
+</view>

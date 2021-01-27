@@ -1,0 +1,22 @@
+/* components/Tabs/tabs.wxml.wxss */
+.tabs_title{
+  display: flex;
+  padding:10rpx;
+}
+.tabs_item{
+  display: flex;
+  flex:1;
+  justify-content: center;
+  align-items: center;
+}
+.active{
+  color:#ff6a00;
+  border-bottom:5rpx solid currentColor;
+}
+.show {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}

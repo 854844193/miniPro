@@ -1,0 +1,5 @@
+<view class="search">
+	<view class="search_input">
+		<input type="text" placeholder-class="iconfont icon-Search" placeholder="搜索" placeholder-style="text-align:center" />
+	</view>
+</view>
